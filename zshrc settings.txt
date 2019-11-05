@@ -1,11 +1,9 @@
-zshrc settings
+﻿zshrc settings
+
 
 alias vimrc='vim ~/.vimrc'
 alias update='source ~/.zshrc'
-alias vimzsh='vim ~/.zshrc'
-alias gc='git commit -m'
-alias ga='git add .'
-alias gpo='git push origin'
+alias vimzsh='vim ~/zsh'
 
 
 Theme Basic Installation
