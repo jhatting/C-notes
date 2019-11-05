@@ -1,0 +1,14 @@
+zshrc settings
+
+alias vimrc='vim ~/.vimrc'
+alias update='source ~/.zshrc'
+alias vimzsh='vim ~/.zshrc'
+alias gc='git commit -m'
+alias ga='git add .'
+alias gpo='git push origin'
+
+
+Theme Basic Installation
+Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line with either curl or wget.
+via curl
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
