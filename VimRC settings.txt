@@ -1,6 +1,6 @@
 ﻿VimRC settings 
 
-
+autocmd bufnewfile *.c so ~/mylib/c_header.txt
 autocmd bufnewfile *.c exe "1," . 10 . "g/File Name :.*/s//File Name : " .expand("%")
 autocmd bufnewfile *.c exe "1," . 10 . "g/Creation Date :.*/s//Creation Date : " .strftime("%d-%m-%Y")
 autocmd Bufwritepre,filewritepre *.c execute "normal ma"
@@ -19,3 +19,9 @@ set noerrorbells
 set mouse=a
 set history=1000
 set spell
+set autoindent
+syntax enable
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
