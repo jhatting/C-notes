@@ -1,7 +1,0 @@
-﻿C sqrt()
-The sqrt() function computes the square root of a number.
-Function prototype of sqrt()
-double sqrt(double arg);
-The function sqrt() takes a single argument (in double) and returns the square root (also in double).
-[Mathematics]  √x = sqrt(x) [In C Programming]
-The sqrt() function is defined in math.h header file.
